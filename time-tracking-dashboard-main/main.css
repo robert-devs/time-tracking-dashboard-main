@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d1323;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  
+}
+
+.cardOne {
+  background-color:#1d204b;
+  grid-row: 1/3;
+  border-radius: 20px;
+}
+.part1{
+    background-color:#5746ea ;
+    border-radius: 18px;
+    height: 70%;
+}
+.part1 img{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.part1 p{
+    color: blanchedalmond;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.part1 h1{
+    color:rgb(167, 174, 174);
+    font-size:50px;
+    margin-left: 10px;
+    
+}
+.part2{
+    background: #1d204b;
+    padding: 20;
+}
+.part2 p{
+    color: #6b697b;
+    margin-left: 20px;
+}
+.part2 h3{
+    color: rgb(186, 180, 180);
+    margin-left: 20px;
+}
+.cardTwo {
+  /* background-color: rgb(135, 103, 103); */
+  border-radius: 20px;
+  background-color: #ff8b64;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.one{
+    height: 20%;
+    position: relative;
+    overflow: hidden;
+}
+.one img{
+    position: absolute;
+    right: 10px;
+    height: 38px;
+    width: 80px;
+    top: 5px;
+    opacity: 70%;
+}
+.two{
+    height: 80%;
+    background: #0d1323;
+    border-radius: 20px;
+    padding: 0px 20px;
+    background: #1d204b;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.two h4{
+    color:rgb(240, 234, 225) ;
+}
+.left img{
+    height: 5px;
+    
+}
+.right h1{
+    color: white;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.right p{
+    color: rgb(239, 232, 218);
+}
+.cardThree {
+  background-color: #3d9ebd ;
+  /* border-radius: 5px; */
+    border-radius: 20px;
+  background-color: #5ed7ff ;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.cardFour {
+  border-radius: 5px;
+   border-radius: 20px;
+  background-color: #ff5e7d;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.cardFive {
+  border-radius: 5px;
+   border-radius: 20px;
+  background-color: #4bcf83;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.cardSix {
+  border-radius: 5px;
+   border-radius: 20px;
+  background-color:#7235d1 ;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.cardSeven {
+  border-radius: 5px;
+   border-radius: 20px;
+  background-color:#eeba4a;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
